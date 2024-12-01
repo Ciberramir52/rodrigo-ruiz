@@ -242,6 +242,25 @@ hr {
                 #2C2C54 11% 87%,
                 #A29BFE 92%);
     }
+    .hero h2 {
+        margin: 20px 0px 40px;
+    }
+
+    #home hr {
+        margin-bottom: 40px;
+    }
+
+    .rotador-portadas li {
+        gap: 17px;
+    }
+
+    .footer-container {
+        padding: 30px 0px;
+    }
+
+    #content.about-me {
+        padding: 100px 0px 200px;
+    }
 }
 
 @media (max-width: 767px) {
