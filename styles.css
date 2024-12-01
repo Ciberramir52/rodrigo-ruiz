@@ -226,6 +226,15 @@ hr {
     height: 30px;
 }
 
+@media (max-width: 1399px) {
+    header.inicio {
+        background: linear-gradient(to right,
+            #A29BFE 26%,
+            #2C2C54 27% 71%,
+            #A29BFE 76%);
+    }
+}
+
 @media (max-width: 1199px) {
     header.inicio {
         background: linear-gradient(to right,
