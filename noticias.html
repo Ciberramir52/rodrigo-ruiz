@@ -15,7 +15,7 @@
 
 <body>
     <!-- Header -->
-    <header id="web" class="about-me" role="banner">
+    <header id="web" class="inicio" role="banner">
         <div class="contenido">
             <a href="./index.html" aria-label="Inicio - Rodrigo Ruiz">
                 <h1>Rodrigo Ruiz</h1>
@@ -24,34 +24,37 @@
         <nav role="navigation" aria-label="Menú principal">
             <ul>
                 <li><a href="./index.html" title="Inicio">Inicio</a></li>
-                <li><a href="./rodrigo-ruiz.html" title="Sobre Rodrigo Ruiz" style="color: #A29BFE;">Rodrigo Ruiz</a>
-                </li>
+                <li><a href="./rodrigo-ruiz.html" title="Sobre Rodrigo Ruiz">Rodrigo Ruiz</a></li>
                 <li><a href="./el-timo.html" title="El Timo, el nuevo libro de Rodrigo">El Timo</a></li>
-                <li><a href="#" title="Últimas noticias sobre Rodrigo">Noticias</a></li>
-                <li><a href="#" title="Agenda de eventos">Agenda</a></li>
+                <li><a href="./noticias.html" title="Últimas noticias sobre Rodrigo" style="color: #A29BFE;">Noticias</a></li>
+                <li><a href="#" title="Próximos eventos y agenda de eventos" >Agenda</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main Content -->
-    <main id="content" class="about-me">
-        <div class="about-me-container">
-            <div class="image-container">
-                <img src="./Assets/images/rodrigo-ruiz-foto.png" alt="Foto de Rodrigo Ruiz, autor de El Timo">
-            </div>
-
-            <!-- Contenedor de Texto -->
-            <div class="text-container">
-                <h2>Acerca de mi...</h2>
-                <p>
-                    Me inspiré a escribir este libro mientras disfrutaba de la lectura en mis tiempos libres. Espero que
-                    estas páginas también puedan inspirarte, transportarte y conectar contigo de una manera especial.
-                </p>
-                <div class="signature-area" aria-labelledby="firma-del-autor">
-                    <p id="firma-del-autor">Firma del Autor</p>
+    <main id="content" class="noticias">
+        <!-- Hero Section -->
+        <section class="noticias-container" aria-labelledby="hero-title">
+            <div class="noticia">
+                <h2 id="hero-title">Presentación de "El Timo" en Biblioteca Gobernador Flavio Romero De Velazco</h2>
+                <div class="contenido-noticia">
+                    <div class="presentacion-imagen">
+                        <img src="./Assets/images/presentacion-el-timo.jpeg" alt="Rodrigo Ruiz presentando su libro 'El Timo' en un evento en la Biblioteca Gobernador Flavio Romero de Velazco">
+                    </div>
+                    <div class="descripcion-noticia">
+                        <p>El viernes 30 de agosto de 2024 a las 17:00 horas, <strong>Rodrigo Ruiz</strong> presentará su nuevo
+                            libro <strong>"El Timo"</strong> en <strong>San Pedro, Tlaquepaque</strong>. El evento comenzará con
+                            una sesión de preguntas, seguida por una sesión de fotos con el autor y, finalmente, la presentación
+                            oficial del libro, donde se explorará el trasfondo y el significado de la obra.</p>
+                        <p>Será una ocasión única para los asistentes, quienes podrán conocer más sobre el proceso creativo
+                            detrás de <strong>"El Timo"</strong> y tener una experiencia cercana con <strong>Rodrigo
+                                Ruiz</strong>.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <!-- Footer -->
