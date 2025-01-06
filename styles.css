@@ -352,50 +352,66 @@ hr {
 
 /* Noticias */
 
-.noticias {
+.noticias, .agenda {
     background-color: #A29BFE;
     display: flex;
     justify-content: center;
 }
 
-.noticias-container {
+.noticias {
+    padding-bottom: 80px;
+}
+
+.noticias-container, .agenda-container {
     max-width: 1000px;
     width: 100%;
-    height: 900px;
     padding: 50px 0;
 }
 
-.noticia {
-    background-color: rgba(44, 44, 84, 0.7);
-    padding: 12px 18px;
-    color: #E8E8F1;
+.agenda-container {
+    height: 900px;
 }
 
-.noticia h2 {
+.noticia, .evento {
+    background-color: rgba(44, 44, 84, 0.7);
+    padding: 15px 20px;
+    color: #E8E8F1;
+    margin-bottom: 20px;
+}
+
+.noticia h2, .evento h2 {
     font-size: 20px;
     font-weight: bold;
 }
 
-.contenido-noticia {
+.contenido-noticia, .contenido-evento {
     margin-top: 20px;
     display: flex;
     gap: 15px;
 }
 
-.presentacion-imagen {
+.noticia-imagen, .evento-imagen {
     flex: 4;
+    text-align: center;
 }
 
-.presentacion-imagen img {
-    width: 100%;
+.noticia-imagen img, .evento-imagen img {
+    max-height: 300px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
 }
 
-.descripcion-noticia {
+.noticia em, .evento em {
+    font-style: italic;
+}
+
+.descripcion-noticia, .descripcion-evento {
     flex: 6;
     font-size: 17px;
 }
 
-.descripcion-noticia strong {
+.descripcion-noticia strong, .descripcion-evento strong {
     font-weight: bold;
 }
 
@@ -601,7 +617,7 @@ hr {
         padding: 10px;
     }
 
-    .contenido-noticia {
+    .contenido-noticia, .contenido-evento {
         flex-direction: column;
     }
 }
